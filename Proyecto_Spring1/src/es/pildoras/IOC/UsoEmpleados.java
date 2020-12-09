@@ -15,7 +15,7 @@ public class UsoEmpleados {
 		System.out.println(Empleado2.getTareas());*/
 		
 		ClassPathXmlApplicationContext contexto=new ClassPathXmlApplicationContext("applicationContext.xml");
-		
+				
 		Empleados Juan=contexto.getBean("miEmpleado",Empleados.class);
 		
 		System.out.println(Juan.getTareas());

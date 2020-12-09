@@ -1,0 +1,31 @@
+public class Ejercicio1 {
+
+    public static void main(String[] args) throws ClassNotFoundException {
+        // TODO Auto-generated method stub
+
+    operaciones suma=new operaciones();
+
+    suma.operacion_suma(5,8);
+
+    system.out.println("El resultado de " + num1 + " + " + num2 " es " + resultado);
+
+
+
+
+class operaciones{
+
+    int resultado;
+    public operacion_suma(int num1, int num2){
+
+        this.num1=num1;
+        this.num2=num2;
+        resultado=num1+num2;
+
+        return resultado;
+
+
+    }
+}
+
+}
+    }

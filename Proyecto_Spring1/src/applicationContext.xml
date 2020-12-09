@@ -28,6 +28,8 @@
 	
 	<property name="nombreEmpresa" value="${nombreEmpresa"></property>
 
+	<property name="evalua" value="${nota}"></property>
+
 </bean>
 
 </beans>

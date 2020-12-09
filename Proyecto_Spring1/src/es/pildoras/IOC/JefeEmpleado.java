@@ -4,13 +4,13 @@ public class JefeEmpleado implements Empleados {
 
 	public String getTareas() {
 			
-		return "Gestiono las cuestiones relativas a mis empleados de sección";
+		return "Gestiono las cuestiones relativas a mis empleados de secciï¿½n";
 	}
 
 	@Override
 	public String getInforme() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Evaluo a los empleados y responde ante los mandos intermedios";
 	}
 	
 	
